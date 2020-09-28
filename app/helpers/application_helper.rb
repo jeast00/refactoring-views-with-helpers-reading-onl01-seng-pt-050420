@@ -1,6 +1,5 @@
 module ApplicationHelper
   def title
-
+    content_for :title, text
   end
-  content_for :title, text
 end
